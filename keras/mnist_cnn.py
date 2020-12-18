@@ -12,6 +12,13 @@ from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
 
+# import tensorflow.keras as keras
+# from tensorflow.keras.datasets import mnist
+# from tensorflow.keras.models import Sequential
+# from tensorflow.keras.layers import Dense, Dropout, Activation, Flatten
+# from tensorflow.keras.layers import Conv2D, MaxPooling2D
+# from tensorflow.keras import backend as K
+
 # Fix cuDNN initialization
 # https://github.com/tensorflow/tensorflow/issues/24828
 try:
