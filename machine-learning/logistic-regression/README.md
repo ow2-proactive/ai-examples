@@ -32,7 +32,7 @@ pip install -r requirements.txt
 To download the CIFAR-10 dataset in CSV format, navigate to the `dataset` directory and execute the `download_dataset.sh` script:
 
 ```bash
-cd dataset && ./download_dataset.sh
+cd dataset && ./download_dataset.sh && cd ..
 ```
 
 ### Training the Model
